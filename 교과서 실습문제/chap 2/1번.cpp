@@ -9,5 +9,6 @@ int main(){
 		if (i % 10 == 0)
 			cout << '\n';
 	}
+	
 	return 0;
 }
