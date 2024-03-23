@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
 int main(){
+	
 	float a, b, c, d, e;
 	float max = 0;
 
-	cout << "5°³ÀÇ ½Ç¼ö¸¦ ÀÔ·ÂÇÏ¶ó >> ";
+	cout << "5ê°œì˜ ì‹¤ìˆ˜ë¥¼ ìž…ë ¥í•˜ë¼ >> ";
 	cin >> a >> b >> c >> d >> e;
 
 	if (max < a){
@@ -22,7 +23,7 @@ int main(){
 	if (max < e){
 		max = e;
 	}
-	cout << "Á¦ÀÏ Å« ¼ö = ";
+	cout << "ì œì¼ í° ìˆ˜ = ";
 	cout << max << '\n';
 
 	return 0;
