@@ -4,15 +4,14 @@ using namespace std;
 int main() {
 	int k, n = 0;
 	int sum = 0;
-	cout << "³¡ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä >> ";
+	cout << "ë ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” >> ";
 	
 	cin >> n;
 
 	for (k = 1; k <= n; k++) {
 		sum += k;
 	}
-	cout << "1¿¡¼­ " << n << "±îÁöÀÇ ÇÕÀº " << sum << "ÀÔ´Ï´Ù." << endl;
-
+	cout << "1ì—ì„œ " << n << "ê¹Œì§€ì˜ í•©ì€ " << sum << "ì…ë‹ˆë‹¤." << endl;
 
 	return 0;
 }
