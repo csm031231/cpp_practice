@@ -5,16 +5,16 @@ using namespace std;
 int main() {
 	char name[100], adress[100], age[100];
 
-	cout << "ÀÌ¸§Àº? ";
+	cout << "ì´ë¦„ì€? ";
 	cin.getline(name, 100);
 
-	cout << "ÁÖ¼Ò´Â? ";
+	cout << "ì£¼ì†ŒëŠ”? ";
 	cin.getline(adress, 100);
 
-	cout << "³ªÀÌ´Â? ";
+	cout << "ë‚˜ì´ëŠ”? ";
 	cin.getline(age, 100);
 
-	cout << name << "," << adress << "," << age << "¼¼" << endl;
+	cout << name << "," << adress << "," << age << "Â¼Â¼" << endl;
 
 	
 	return 0;
