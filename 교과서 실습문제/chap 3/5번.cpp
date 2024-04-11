@@ -21,12 +21,12 @@ public:
 
 int main() {
 	Random r;
-	cout << "-- 0¿¡¼­ " << RAND_MAX << "±îÁöÀÇ Á¤¼ö 10°³--" << endl;
+	cout << "-- 0ì—ì„œ " << RAND_MAX << "ê¹Œì§€ì˜ ì •ìˆ˜ 10ê°œ--" << endl;
 	for (int i = 0; i < 10; i++) {
 		int n = r.next();
 		cout << n << ' ';
 	}
-	cout << endl << endl << "-- 2¿¡¼­ 4±îÁöÀÇ ·£´ı Á¤¼ö 10°³ --" << endl;
+	cout << endl << endl << "-- 2ì—ì„œ 4ê¹Œì§€ì˜ ëœë¤ ì •ìˆ˜ 10ê°œ --" << endl;
 	for (int i = 0; i < 10; i++) {
 		int n = r.nextInRange(2, 4);
 		cout << n << ' ';
