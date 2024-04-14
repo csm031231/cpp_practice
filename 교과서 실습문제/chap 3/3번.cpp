@@ -2,8 +2,8 @@
 using namespace std;
 
 class Account {
-	int balance, id; //ÀÜ¾×, id ³Ñ¹ö
-	string name; //°èÁÂ ÀÌ¸§
+	int balance, id; //ì”ì•¡, id ë„˜ë²„
+	string name; //ê³„ì¢Œ ì´ë¦„
 
 public:
 	
@@ -13,8 +13,8 @@ public:
 		id = i;
 	}
 
-	int deposit(int money) {
-		return balance += money;
+	void deposit(int money) {
+		balance += money;
 	}
 	int withdraw(int money) {
 		return balance -= money;
@@ -27,9 +27,9 @@ public:
 	}
 };
 int main() {
-	Account a("kitae", 1, 5000); //ÀÜ¾× 5000¿ø °èÁÂ »ı¼º
-	a.deposit(50000); //50000¿ø Àú±İ
-	cout << a.getOwner() << "ÀÇ ÀÜ¾×Àº " << a.inquiry() << endl;
-	int money = a.withdraw(20000); //20000¿ø Ãâ±İ
-	cout << a.getOwner() << "ÀÇ ÀÜ¾×Àº " << a.inquiry() << endl;
+	Account a("kitae", 1, 5000); //ì”ì•¡ 5000ì› ê³„ì¢Œ ìƒì„±
+	a.deposit(50000); //50000ì› ì €ê¸ˆ
+	cout << a.getOwner() << "ì˜ ì”ì•¡ì€ " << a.inquiry() << endl;
+	int money = a.withdraw(20000); //20000ì› ì¶œê¸ˆ
+	cout << a.getOwner() << "ì˜ ì”ì•¡ì€ " << a.inquiry() << endl;
 }
