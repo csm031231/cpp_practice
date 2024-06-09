@@ -11,7 +11,7 @@ public:
 		this->pages = pages;
 	}
 	void show() {
-		cout << title << ' ' << price << "¿ø " << pages << " ÆäÀÌÁö" << endl;
+		cout << title << ' ' << price << "Â¿Ã¸ " << pages << " Ã†Ã¤Ã€ÃŒÃÃ¶" << endl;
 	}
 	string gettitle() { return title; }
 	book &operator += (int a1) {
@@ -24,7 +24,7 @@ public:
 	}
 };
 int main() {
-	book a("Ã»Ãá", 20000, 300), b("¹Ì·¡", 30000, 500);
+	book a("ÃƒÂ»ÃƒÃ¡", 20000, 300), b("Â¹ÃŒÂ·Â¡", 30000, 500);
 	a += 500;
 	b -= 500;
 	a.show();
